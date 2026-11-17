@@ -366,7 +366,7 @@ class SimplifiedSearchEngine:
 # =====================================================================
 def main():
     st.set_page_config(page_title="Compressed Trie Search Engine", page_icon="🔍", layout="wide")
-    st.title("🔍 Simplified Web Search Engine (Section 23.6)")
+    st.title("🔍 Simplified Web Search Engine ")
     st.caption("Powered by a BFS Web Crawler, Compressed Trie, Sorted Occurrence Lists, and Link-Weighted TF Ranking.")
 
     pages_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pages")
