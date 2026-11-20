@@ -1,4 +1,5 @@
-# Simplified Search Engine (Compressed Trie & Inverted Index)
+# Simplified Search Engine 
+(Compressed Trie & Inverted Index)
 
 An implementation of the simplified search engine model described in **Section 23.6** (*Data Structures and Algorithms*, Goodrich & Tamassia)[cite: 1], featuring a **BFS Web Crawler**, a **Compressed Trie (Radix Tree)** for index terms[cite: 1], an **Array of Occurrence Lists**[cite: 1], **Sorted-Sequence Intersection** for multi-keyword queries[cite: 1], and a **Term-Frequency + In-Degree Page Ranking** algorithm.
 
