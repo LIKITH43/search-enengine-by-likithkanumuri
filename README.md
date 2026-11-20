@@ -38,9 +38,3 @@ Strictly following the textbook specification[cite: 1]:
      - **Link Authority ($\text{InDegree}$)**: Bonus weight for pages frequently referenced by other pages on the site.
 
 ---
-
-## 3. Running the Application Locally or on Streamlit Cloud
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
