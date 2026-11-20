@@ -23,9 +23,6 @@ STOP_WORDS = {
 }
 
 
-# =====================================================================
-# 1. COMPRESSED TRIE DATA STRUCTURE (Section 23.6)
-# =====================================================================
 class CompressedTrieNode:
     """
     A node in a Compressed Trie (Radix Tree).
@@ -145,9 +142,7 @@ class CompressedTrie:
         return lines
 
 
-# =====================================================================
-# 2. WEB CRAWLER, INVERTED INDEX & SEARCH ENGINE (Section 23.6)
-# =====================================================================
+
 class SimplifiedSearchEngine:
     def __init__(self):
         self.trie = CompressedTrie()
@@ -361,9 +356,7 @@ class SimplifiedSearchEngine:
         return f"{prefix}{text[start:end]}{suffix}"
 
 
-# =====================================================================
-# 4. STREAMLIT WEB INTERFACE
-# =====================================================================
+
 def main():
     st.set_page_config(page_title="Compressed Trie Search Engine", page_icon="🔍", layout="wide")
     st.title("🔍 Simplified Web Search Engine ")
