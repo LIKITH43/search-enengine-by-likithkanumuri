@@ -29,7 +29,7 @@ Strictly following the textbook specification[cite: 1]:
 3. **Compressed Trie Construction & Search ($O(|P|)$)**:
    - **Insertion**: Splits existing edges at the longest common prefix when a new word diverges from an existing edge label.
    - **Lookup**: Traverses edge labels matching prefixes of the query keyword $P$ in time proportional to the keyword length $|P|$, returning the `occurrence_list_index` stored at the external node[cite: 1].
-4. **Multi-Keyword Query Intersection (Sorted Sequence Merging — Section 8.2)**:
+4. **Multi-Keyword Query Intersection (Sorted Sequence Merging)**:
    - Given $k$ keywords, retrieves the sorted occurrence list for each keyword from the array[cite: 1].
    - Uses a two-pointer linear merge (`intersect_sorted_lists`) in $O(n_1 + n_2)$ time per pair to find documents containing **all** query terms (`AND` semantics)[cite: 1].
 5. **Relevance Ranking Algorithm**:
